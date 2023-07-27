@@ -1,8 +1,12 @@
-Estructura de la hoja de estilos
+# Resumen
 
-Top-level statements
+En este repositorio se muestran algunas anotaciones y ejercicios que he realizado para comprender temas relacionados con HTLM, React, CSSS y SSAS
 
-s   on declaraciones globales, se usan en la parte superior de la hoja de estilos
+## Estructura de la hoja de estilos
+
+### Top-level statements
+
+son declaraciones globales, se usan en la parte superior de la hoja de estilos
 
 Imports
 Definición de Mixin 
@@ -55,9 +59,10 @@ Conceptos básicos de CSS - Tipos de SELECTORES:
             background: pink;
         }
     </style>
-* De clase: .elemento
-* De ID: #iddelelemento
-* De atributo: a[]
+[*] De clase: .elemento
+[*]De ID: #iddelelemento
+[*]De atributo: a[]
+
     <a href  = 'www.unapagina.com'></a>
     <style>
         a[href='www.unapagina.com']{
