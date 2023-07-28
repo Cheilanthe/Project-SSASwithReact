@@ -93,14 +93,10 @@ Importar compoentes en el sytle.scss principal: @import './components/navbar'; l
         https://css-tricks.com/pseudo-class-selectors/
 
 ### Cascada y especificidad 
-El orden de las reglas importan, las instrucciones se ejecutan en orden. Los estilos se pueden sobreescrbir.
-
 La especificidad consiste en dar un valor a una regla CSS sobre qué tan específicos es el estilo. Entre mayor especificidad mayor porbabilidad de que se ejecuten correctamente. 
-La relevancia es descendiente: 
+La relevancia es descendiente: El orden de las reglas importan, las instrucciones se ejecutan en orden. Los estilos se pueden sobreescrbir.
 
-
-
-##### Arquitecturas de CSS
+#### Arquitecturas de CSS
 Las arquitecturas se encargan de manejar una norma de código para que cualquiera pueda añadir o quitar funcionalidad sin mucho trabajo. 
 El objetivo de las arquitecturas es que: sean ppredecibles, reutilizables,, Mantenible y Escalable. 
 
@@ -111,11 +107,11 @@ El objetivo de las arquitecturas es que: sean ppredecibles, reutilizables,, Mant
         Elementos: Es el elemento HTML que vive en el contenedor
         Modificador: Son estilos de cada uno de los elementos. 
 * Atomic Design - Maneja los elementos como estructura mínima. A partiir de la union de varios elementos se diseña la página. 
-        Átomos
-        Moléculas
-        Organismos
-        Plantillas
-        Páginas
+        - Átomos
+        - Moléculas
+        - Organismos
+        - Plantillas
+        - Páginas
 * Triángulo invertido 
 *Escalable y modular (Scalable and Modilar Architecture for CSS, SMACSS).
 
